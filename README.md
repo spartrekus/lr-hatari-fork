@@ -17,4 +17,10 @@ remote: Total 816 (delta 142), reused 591 (delta 118), pack-reused 0
 Receiving objects: 100% (816/816), 2.74 MiB | 1.81 MiB/s, done.
 Resolving deltas: 100% (142/142), done.
 
+It will be into  ~/RetroPie-Setup/tmp/build/lr-hatari 
+
+Once done, it will run : make -f Makefile.libretro 
+
+However, the Escape is missing. 
+
 
