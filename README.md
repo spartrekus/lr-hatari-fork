@@ -27,7 +27,7 @@ However, the Escape is missing.
 root@retropie:/home/pi/RetroPie-Setup/tmp/build/lr-hatari/src# cp /tmp/keymap.c  . 
 
 
-
+Hatari - shortcut.c
 void ShortCut_ActKey(void)
 {
         if (ShortCutKey == SHORTCUT_NONE)
