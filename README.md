@@ -23,4 +23,9 @@ Once done, it will run : make -f Makefile.libretro
 
 However, the Escape is missing. 
 
+/home/pi/RetroPie-Setup/tmp/build/lr-hatari/src# less keymap.c 
+root@retropie:/home/pi/RetroPie-Setup/tmp/build/lr-hatari/src# cp /tmp/keymap.c  . 
+
+
+
 
