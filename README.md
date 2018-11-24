@@ -48,4 +48,4 @@ void ShortCut_ActKey(void)
 
 
 
-
+lr-hatari# mv hatari_libretro.so  /opt/retropie/emulators/hatari/bin/hatari
