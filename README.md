@@ -28,4 +28,24 @@ root@retropie:/home/pi/RetroPie-Setup/tmp/build/lr-hatari/src# cp /tmp/keymap.c 
 
 
 
+void ShortCut_ActKey(void)
+{
+        if (ShortCutKey == SHORTCUT_NONE)
+                return;
+
+        switch (ShortCutKey)
+        {
+         case SHORTCUT_OPTIONS:
+                Dialog_DoProperty();           /* Show options dialog */
+                break;
+         case SHORTCUT_FULLSCREEN:
+                ShortCut_FullScreen();         /* Switch between fullscreen/windowed mode */
+                break;
+         case SHORTCUT_MOUSEGRAB:
+                ShortCut_MouseGrab();          /* Toggle mouse grab */
+                break;
+         case SHORTCUT_COLDRESET:
+
+
+
 
