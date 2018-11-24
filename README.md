@@ -49,3 +49,10 @@ void ShortCut_ActKey(void)
 
 
 lr-hatari# mv hatari_libretro.so  /opt/retropie/emulators/hatari/bin/hatari
+
+
+ ps aux | grep hatari
+pi         776 39.0  1.8  89400 14568 tty1     Rl+  13:04   0:16 /opt/retropie/emulators/hatari/bin/hatari --confirm-quit 0 --statusbar 0 --zoom 1 -w --compatible 0 --timer-d 1 --borders 0 /home/pi/RetroPie/roms/atarist/Pac-Mania (Original).st
+
+
+
